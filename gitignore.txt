@@ -1,0 +1,42 @@
+# Data files
+# *.csv   <- intentionally tracked so others can reproduce results
+*.tsv
+*.xlsx
+*.xls
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Output images (optional — remove these lines if you want to track them)
+# *.png
+# rf_lg_results.png
+# feature_importance.png
